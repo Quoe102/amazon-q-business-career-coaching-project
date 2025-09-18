@@ -1,0 +1,22 @@
+[
+    {
+        "keyPrefix": "s3://careercoach-coursecatalog-tobi01/Data/Security/",
+        "aclEntries": [
+            {
+                "Name": "CareerCoaches",
+                "Type": "GROUP",
+                "Access": "ALLOW"
+            }
+        ]
+    },
+        {
+        "keyPrefix": "s3://careercoach-coursecatalog-tobi01/Data/Medicine/",
+        "aclEntries": [
+            {
+                "Name": "CareerCoaches",
+                "Type": "GROUP",
+                "Access": "DENY"
+            }
+        ]
+    }
+]
